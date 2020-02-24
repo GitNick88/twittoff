@@ -12,7 +12,7 @@ def create_app():
 
     # add config for database
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite3'
-    
+
     #have the database know about the app
     DB.init_app(app)
 
