@@ -2,7 +2,7 @@
 
 from flask import Flask, render_template
 
-# Make th application
+# Make the application
 app = Flask(__name__)
 
 # Make the route w/ a decorator
